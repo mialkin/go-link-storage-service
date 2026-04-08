@@ -1,3 +1,4 @@
 # Link storages service
 
-Link Storage Service (Go language study project)
+This is a study project written in Go.
+
