@@ -1,2 +1,3 @@
-# go-link-storage-service
+# Link storages service
+
 Link Storage Service (Go language study project)
