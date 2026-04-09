@@ -12,3 +12,5 @@ This is a study project written in Go.
 ```
 make run
 ```
+
+Visit <http://localhost:4010/hello>
