@@ -14,3 +14,7 @@ make run
 ```
 
 Visit <http://localhost:4010/hello>
+
+Swagger UI is available at:
+
+- <http://localhost:4010/swagger/index.html>

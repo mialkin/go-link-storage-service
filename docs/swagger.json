@@ -1,0 +1,33 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "API for the go-link-storage-service application",
+        "title": "go-link-storage-service API",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:4010",
+    "basePath": "/",
+    "paths": {
+        "/hello": {
+            "get": {
+                "description": "Returns a greeting message",
+                "produces": [
+                    "text/plain"
+                ],
+                "tags": [
+                    "example"
+                ],
+                "summary": "Say hello",
+                "responses": {
+                    "200": {
+                        "description": "Hello, Aleksei",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

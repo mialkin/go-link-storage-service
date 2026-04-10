@@ -1,0 +1,22 @@
+basePath: /
+host: localhost:4010
+info:
+  contact: {}
+  description: API for the go-link-storage-service application
+  title: go-link-storage-service API
+  version: "1.0"
+paths:
+  /hello:
+    get:
+      description: Returns a greeting message
+      produces:
+      - text/plain
+      responses:
+        "200":
+          description: Hello, Aleksei
+          schema:
+            type: string
+      summary: Say hello
+      tags:
+      - example
+swagger: "2.0"
